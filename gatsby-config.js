@@ -32,18 +32,11 @@ module.exports = {
             },
         },
         // {
-        //     resolve: `gatsby-plugin-prefetch-google-fonts`,
+        //     resolve: "gatsby-plugin-web-font-loader",
         //     options: {
-        //         fonts: [
-        //             {
-        //                 family: `Work Sans`,
-        //                 variants: [`300`, `800`, `900`],
-        //             },
-        //             {
-        //                 family: `Lato`,
-        //                 variants: [`300`, `700`],
-        //             },
-        //         ],
+        //         google: {
+        //             families: ["Work Sans", "Lato"],
+        //         },
         //     },
         // },
     ],
